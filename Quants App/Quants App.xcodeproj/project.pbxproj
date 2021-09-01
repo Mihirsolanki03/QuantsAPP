@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F628326DF4F5E00E0DD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F628226DF4F5E00E0DD42 /* AppDelegate.swift */; };
+		046F628526DF4F5E00E0DD42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F628426DF4F5E00E0DD42 /* SceneDelegate.swift */; };
+		046F628726DF4F5E00E0DD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F628626DF4F5E00E0DD42 /* ViewController.swift */; };
+		046F628A26DF4F5E00E0DD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F628826DF4F5E00E0DD42 /* Main.storyboard */; };
+		046F628C26DF4F6600E0DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F628B26DF4F6600E0DD42 /* Assets.xcassets */; };
+		046F628F26DF4F6600E0DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F628D26DF4F6600E0DD42 /* LaunchScreen.storyboard */; };
+		04FF161E26DFD1030093A597 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF161D26DFD1030093A597 /* model.swift */; };
+		04FF162426E014B20093A597 /* QuantsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FF162326E014B20093A597 /* QuantsApp.png */; };
+		F1668C50E5EE471E0027C624 /* Pods_Quants_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7C1C07B211FF8CC4E453DB /* Pods_Quants_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046F627F26DF4F5E00E0DD42 /* Quants App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quants App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F628226DF4F5E00E0DD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046F628426DF4F5E00E0DD42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046F628626DF4F5E00E0DD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046F628926DF4F5E00E0DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F628B26DF4F6600E0DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F628E26DF4F6600E0DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F629026DF4F6600E0DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FF161D26DFD1030093A597 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		04FF162326E014B20093A597 /* QuantsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuantsApp.png; sourceTree = "<group>"; };
+		1C6AFBAFAF3473638E101B87 /* Pods-Quants App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quants App.release.xcconfig"; path = "Target Support Files/Pods-Quants App/Pods-Quants App.release.xcconfig"; sourceTree = "<group>"; };
+		6AA568957FDF3D0FD33100FA /* Pods-Quants App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quants App.debug.xcconfig"; path = "Target Support Files/Pods-Quants App/Pods-Quants App.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7C1C07B211FF8CC4E453DB /* Pods_Quants_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quants_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F627C26DF4F5E00E0DD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1668C50E5EE471E0027C624 /* Pods_Quants_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F627626DF4F5E00E0DD42 = {
+			isa = PBXGroup;
+			children = (
+				046F628126DF4F5E00E0DD42 /* Quants App */,
+				046F628026DF4F5E00E0DD42 /* Products */,
+				AA284E3057C56925A31FC718 /* Pods */,
+				6B40639340124FD810593463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046F628026DF4F5E00E0DD42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F627F26DF4F5E00E0DD42 /* Quants App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F628126DF4F5E00E0DD42 /* Quants App */ = {
+			isa = PBXGroup;
+			children = (
+				04FF161F26E012DC0093A597 /* Model */,
+				04FF162026E012E40093A597 /* View */,
+				04FF162126E012FC0093A597 /* Controller */,
+				046F628226DF4F5E00E0DD42 /* AppDelegate.swift */,
+				046F628426DF4F5E00E0DD42 /* SceneDelegate.swift */,
+				046F628B26DF4F6600E0DD42 /* Assets.xcassets */,
+				046F628D26DF4F6600E0DD42 /* LaunchScreen.storyboard */,
+				046F629026DF4F6600E0DD42 /* Info.plist */,
+				04FF162226E014950093A597 /* Images */,
+			);
+			path = "Quants App";
+			sourceTree = "<group>";
+		};
+		04FF161F26E012DC0093A597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04FF161D26DFD1030093A597 /* model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FF162026E012E40093A597 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046F628826DF4F5E00E0DD42 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FF162126E012FC0093A597 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046F628626DF4F5E00E0DD42 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FF162226E014950093A597 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04FF162326E014B20093A597 /* QuantsApp.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6B40639340124FD810593463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7C1C07B211FF8CC4E453DB /* Pods_Quants_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA284E3057C56925A31FC718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA568957FDF3D0FD33100FA /* Pods-Quants App.debug.xcconfig */,
+				1C6AFBAFAF3473638E101B87 /* Pods-Quants App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F627E26DF4F5E00E0DD42 /* Quants App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F629326DF4F6600E0DD42 /* Build configuration list for PBXNativeTarget "Quants App" */;
+			buildPhases = (
+				84727D6E5C3DA3B6179A5DA0 /* [CP] Check Pods Manifest.lock */,
+				046F627B26DF4F5E00E0DD42 /* Sources */,
+				046F627C26DF4F5E00E0DD42 /* Frameworks */,
+				046F627D26DF4F5E00E0DD42 /* Resources */,
+				5CA4278A349C2A67DAC34AEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quants App";
+			productName = "Quants App";
+			productReference = 046F627F26DF4F5E00E0DD42 /* Quants App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F627726DF4F5E00E0DD42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					046F627E26DF4F5E00E0DD42 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 046F627A26DF4F5E00E0DD42 /* Build configuration list for PBXProject "Quants App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F627626DF4F5E00E0DD42;
+			productRefGroup = 046F628026DF4F5E00E0DD42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F627E26DF4F5E00E0DD42 /* Quants App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F627D26DF4F5E00E0DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F628F26DF4F6600E0DD42 /* LaunchScreen.storyboard in Resources */,
+				04FF162426E014B20093A597 /* QuantsApp.png in Resources */,
+				046F628C26DF4F6600E0DD42 /* Assets.xcassets in Resources */,
+				046F628A26DF4F5E00E0DD42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA4278A349C2A67DAC34AEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quants App/Pods-Quants App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quants App/Pods-Quants App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quants App/Pods-Quants App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84727D6E5C3DA3B6179A5DA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quants App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F627B26DF4F5E00E0DD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F628726DF4F5E00E0DD42 /* ViewController.swift in Sources */,
+				046F628326DF4F5E00E0DD42 /* AppDelegate.swift in Sources */,
+				046F628526DF4F5E00E0DD42 /* SceneDelegate.swift in Sources */,
+				04FF161E26DFD1030093A597 /* model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046F628826DF4F5E00E0DD42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F628926DF4F5E00E0DD42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F628D26DF4F6600E0DD42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F628E26DF4F6600E0DD42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F629126DF4F6600E0DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046F629226DF4F6600E0DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F629426DF4F6600E0DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA568957FDF3D0FD33100FA /* Pods-Quants App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59N25M2Q55;
+				INFOPLIST_FILE = "Quants App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Quants-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046F629526DF4F6600E0DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6AFBAFAF3473638E101B87 /* Pods-Quants App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59N25M2Q55;
+				INFOPLIST_FILE = "Quants App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Quants-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F627A26DF4F5E00E0DD42 /* Build configuration list for PBXProject "Quants App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F629126DF4F6600E0DD42 /* Debug */,
+				046F629226DF4F6600E0DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F629326DF4F6600E0DD42 /* Build configuration list for PBXNativeTarget "Quants App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F629426DF4F6600E0DD42 /* Debug */,
+				046F629526DF4F6600E0DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046F627726DF4F5E00E0DD42 /* Project object */;
+}
